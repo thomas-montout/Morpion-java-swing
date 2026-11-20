@@ -10,7 +10,7 @@ out/
 .project
 .settings
 .springBeans
-.sts4-cache
+.sts4-cache8    ²
 .idea
 bin/
 !**/src/main/**/bin/
