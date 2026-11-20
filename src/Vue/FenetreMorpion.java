@@ -63,8 +63,6 @@ public class FenetreMorpion extends JFrame  implements ActionListener {
         txtJ2.setCaretColor(this.texte);
         txtJ2.setBorder(BorderFactory.createLineBorder(this.bordure));
 
-        rbOrdinateur.setBackground(this.fond);
-
         btRejouer.setBackground(this.bleuX);
         btRejouer.setForeground(Color.BLACK);
         btRejouer.setFocusPainted(false);
@@ -86,9 +84,23 @@ public class FenetreMorpion extends JFrame  implements ActionListener {
 
         this.rb2joueur.setBounds(20, 120, 100, 20);
         this.add(this.rb2joueur);
-
         this.rbOrdinateur.setBounds(20, 160, 100, 20);
         this.add(this.rbOrdinateur);
+
+        this.txtListeCoups.setBounds(20, 200, 220, 240);
+        this.add(this.txtListeCoups);
+
+        this.btSauvegarder.setBounds(20, 500, 150, 20);
+        this.add(this.btSauvegarder);
+        this.btCharger.setBounds(190, 500, 150, 20);
+        this.add(this.btCharger);
+
+        this.btQuitter.setBounds(400, 540, 150, 20);
+        this.add(this.btQuitter);
+
+        this.btRejouer.setBounds(400, 580, 150, 20);
+        this.add(this.btRejouer);
+
     }
 
     @Override
